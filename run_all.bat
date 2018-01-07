@@ -1,9 +1,5 @@
 @echo off
 if exist "C:\clnhk" (
-start /d "C:\Ccleaner_auto.bat" Ccleaner_auto.bat
-)
-@echo off
-if exist "C:\clnhk" (
 start /d "C:\IE+Chrome+Mozila.bat" IE+Chrome+Mozila.bat
 )
 @echo off
