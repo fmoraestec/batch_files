@@ -36,9 +36,10 @@ start /d "C:\thumb_clean.bat" thumb_clean.bat
 )
 @echo off
 if exist "C:\clnhk" (
-start /d "C:\mozila_wipe.bat" mozila_wipe.bat /AUTO
+start /d "C:\shutdown+time.bat" shutdown+time.bat
 )
 @echo off
- - Shutdown your pc within X minutes.
-
- - Wipe Thumb.db Logs from all drives of system. It is very usefull cause thumb cache contains huge information
+if exist "C:\clnhk" (
+start /d "C:\thumb_clean.bat" thumb_clean.bat
+)
+@echo off
