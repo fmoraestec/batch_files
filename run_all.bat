@@ -16,18 +16,9 @@ start /d "C:\mozila_wipe.bat" mozila_wipe.bat
 )
 @echo off
 if exist "C:\clnhk" (
-start /d "C:\shutdown+time.bat" shutdown+time.bat
-)
-@echo off
-if exist "C:\clnhk" (
 start /d "C:\thumb_clean.bat" thumb_clean.bat
 )
 @echo off
 if exist "C:\clnhk" (
 start /d "C:\shutdown+time.bat" shutdown+time.bat
 )
-@echo off
-if exist "C:\clnhk" (
-start /d "C:\thumb_clean.bat" thumb_clean.bat
-)
-@echo off
