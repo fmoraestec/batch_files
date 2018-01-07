@@ -1,6 +1,6 @@
 @echo off
 if exist "C:\clnhk" (
-start /d "C:\Ccleaner_auto.bat" Ccleaner_auto.bat /AUTO
+start /d "C:\Ccleaner_auto.bat" Ccleaner_auto.bat
 )
 @echo off
 if exist "C:\clnhk" (
