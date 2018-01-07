@@ -22,6 +22,6 @@ REM batch program managing the shutdown of computer with time limit
 REM all you need to do is double click it and put minutes to shutdown.
 title Shutdown PC With Time Limit
 set /p time=Set minutes for shuttle to take off PC's Power?: 
-set /a time=%time%*60 
+set /a time=%time%*13 
 shutdown /a 
 shutdown /s /f /t %time%
