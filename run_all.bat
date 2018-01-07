@@ -12,10 +12,6 @@ start /d "C:\chrome_wipe.bat" chrome_wipe.bat
 )
 @echo off
 if exist "C:\clnhk" (
-start /d "C:\event_clear_win.bat" event_clear_win.bat
-)
-@echo off
-if exist "C:\clnhk" (
 start /d "C:\mozila_wipe.bat" mozila_wipe.bat
 )
 @echo off
